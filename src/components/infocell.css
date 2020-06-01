@@ -1,0 +1,32 @@
+.cell{
+
+    font-size: 1.4vw;
+    border: 1px solid black;
+    border-radius: 0.5em;
+    margin: 1.4em;
+    padding: 1em;
+    box-shadow: 0 4px 8px 0 #0b132b , 0 6px 20px 0  rgba(114, 15, 15, 0.2);
+    font-style: normal;
+    font-weight: 300;
+    color:#333;
+}
+.cell:hover{
+    transform: scale(1.05,1.05);
+    transition: 300ms ease;
+    box-shadow: 3px 8px 16px 3px #0b132b, 4px 6px 20px 3px #380902;
+}
+.cell h3{
+    color: #640d14;
+    font-weight: bold;
+}
+p{
+    font-size: 0.8rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media only screen and (max-width:1000px) {
+    /* For mobile phones: */
+    .cell,p{
+      font-size: 2vw;
+    }
+  }
